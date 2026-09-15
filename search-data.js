@@ -2,15 +2,15 @@
 // search-data.js can be shared by every page's overlay search.
 var SEARCH_DATA = [
   // ---------- Pixels (crafts.html) ----------
-  { title: "App Icon", subtitle: "for Flow team", category: "Pixels", url: "/crafts.html#craft-app-icon" },
+  { title: "App Icon", subtitle: "for UNIVA team", category: "Pixels", url: "/crafts.html#craft-app-icon" },
   { title: "Texture Wallpaper", subtitle: "for Personal work", category: "Pixels", url: "/crafts.html#craft-texture-wallpaper" },
   { title: "3D Card with Hover Interaction", subtitle: "for Personal work", category: "Pixels", url: "/crafts.html#craft-3d-card" },
   { title: "Action Bar Interaction Prototype", subtitle: "for Personal work", category: "Pixels", url: "/crafts.html#craft-action-bar" },
   { title: "Glass Texture Background", subtitle: "for Personal work", category: "Pixels", url: "/crafts.html#craft-glass-texture" },
-  { title: "Brand Standards Graphic", subtitle: "for Flow team", category: "Pixels", url: "/crafts.html#craft-brand-standards" },
-  { title: "Cold Brew Label", subtitle: "for Flow team", category: "Pixels", url: "/crafts.html#craft-cold-brew-label" },
-  { title: "Name Card", subtitle: "for Flow team", category: "Pixels", url: "/crafts.html#craft-name-card" },
-  { title: "Year-End Party Logo", subtitle: "for Flow team", category: "Pixels", url: "/crafts.html#craft-year-end-logo" },
+  { title: "Brand Standards Graphic", subtitle: "for UNIVA team", category: "Pixels", url: "/crafts.html#craft-brand-standards" },
+  { title: "Cold Brew Label", subtitle: "for UNIVA team", category: "Pixels", url: "/crafts.html#craft-cold-brew-label" },
+  { title: "Name Card", subtitle: "for UNIVA team", category: "Pixels", url: "/crafts.html#craft-name-card" },
+  { title: "Year-End Party Logo", subtitle: "for UNIVA team", category: "Pixels", url: "/crafts.html#craft-year-end-logo" },
   { title: "Campaign Graphic", subtitle: "for Product Design Group", category: "Pixels", url: "/crafts.html#craft-campaign-graphic" },
   { title: "Wordmark Logo", subtitle: "for Product Design Group", category: "Pixels", url: "/crafts.html#craft-wordmark-logo" },
   { title: "Store Tag", subtitle: "for Nova Store", category: "Pixels", url: "/crafts.html#craft-store-tag" },
@@ -40,9 +40,9 @@ var SEARCH_DATA = [
   { title: "퇴사 후 돌아보기", subtitle: "2021. 3. 27", category: "Archive", url: "/archives/after-resignation/" },
 
   // ---------- Builds (index.html) ----------
-  { title: "Flow Mobile Design System", subtitle: "for Flow team · 2022. 3 ~ Present", category: "Builds", url: "/builds/flow-mobile-design-system/" },
-  { title: "Flow Product Feature Design", subtitle: "for Flow team · 2021. 6 ~ 2022. 3", category: "Builds", url: "/builds/flow-product-feature/" },
-  { title: "Flow Design System", subtitle: "for Flow team · 2020. 11 ~ 2021. 6", category: "Builds", url: "/builds/flow-design-system/" },
+  { title: "UNIVA Mobile Design System", subtitle: "for UNIVA team · 2022. 3 ~ Present", category: "Builds", url: "/builds/flow-mobile-design-system/" },
+  { title: "UNIVA Product Feature Design", subtitle: "for UNIVA team · 2021. 6 ~ 2022. 3", category: "Builds", url: "/builds/flow-product-feature/" },
+  { title: "UNIVA Design System", subtitle: "for UNIVA team · 2020. 11 ~ 2021. 6", category: "Builds", url: "/builds/flow-design-system/" },
   { title: "Nova Store Service Design", subtitle: "for Nova Store · 2019. 4 ~ 2020. 10", category: "Builds", url: "/builds/nova-store-service/" },
   { title: "Personal Blog", subtitle: "for Personal work · 2026. 1 ~ Present", category: "Builds", url: "/archives.html" }
 ];
