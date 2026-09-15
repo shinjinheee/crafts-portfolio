@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>I like simple things.</title>
+<meta name="description" content="Product designer based in Seoul, South Korea." />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="nav-blur" aria-hidden="true">
+  <div class="nav-blur-layer"></div>
+  <div class="nav-blur-layer"></div>
+  <div class="nav-blur-layer"></div>
+  <div class="nav-blur-layer"></div>
+  <div class="nav-blur-layer"></div>
+</div>
+<nav class="pill-nav" aria-label="Primary">
+  <div class="pill-nav-inner">
+    <a href="index.html" class="active">Index</a>
+    <a href="crafts.html">Pixels</a>
+    <a href="archives.html">Archive</a>
+  </div>
+  <div class="pill-nav-icons">
+    <a href="mailto:hello@example.com" aria-label="Email">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+    </a>
+    <span class="icon-divider"></span>
+    <a href="#" data-search-trigger aria-label="Search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="search-overlay" id="searchOverlay">
+  <div class="search-scrim"></div>
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search">
+    <div class="search-panel">
+      <div class="search-input-row">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="검색어 입력" autocomplete="off" spellcheck="false" />
+      </div>
+      <ul class="search-results" id="searchResults" hidden></ul>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <h1 class="wordmark">jinhee.shin<span class="dot">.</span></h1>
+  <p class="tagline">Product designer based in Seoul, South Korea.</p>
+</header>
+
+<main class="home">
+
+  <section class="home-block" data-reveal>
+    <h2 class="section-label">Today</h2>
+    <p class="home-text">
+      요즘은 화려한 장식보다 정보 위계가 또렷한 화면에 더 끌립니다. 오래된 인터페이스가
+      풀어낸 문제들을 다시 들여다보면서, 그 안의 아이디어를 지금의 제품에 옮겨보는
+      작업을 이어가고 있어요.
+    </p>
+    <p class="home-text">
+      사용자 인터페이스, 타이포그래피, 그래픽 등 영역을 가리지 않고 넓게 디자인하는 것을
+      좋아합니다. 조형적으로 정돈되어 있으면서도 정보 위계가 명확한 화면을 만들려고
+      노력합니다.
+    </p>
+    <p class="home-text">
+      주말에는 집에 걸어둘 포스터를 만들거나, 지금 보고 계신 이 블로그를 다듬으며
+      시간을 보냅니다.
+    </p>
+  </section>
+
+  <section class="home-block" data-reveal>
+    <h2 class="section-label">Builds</h2>
+    <ul class="build-list">
+      <li class="build-entry" id="build-flow-mobile-design-system">
+        <a href="builds/flow-mobile-design-system/">
+          <span class="build-info">
+            <span class="build-title">Flow Mobile Design System <span class="tag-new">New</span></span>
+          </span>
+          <span class="build-date">2022. 3 ~ Present</span>
+        </a>
+      </li>
+      <li class="build-entry" id="build-flow-product-feature">
+        <a href="builds/flow-product-feature/">
+          <span class="build-info">
+            <span class="build-title">Flow Product Feature Design</span>
+          </span>
+          <span class="build-date">2021. 6 ~ 2022. 3</span>
+        </a>
+      </li>
+      <li class="build-entry" id="build-flow-design-system">
+        <a href="builds/flow-design-system/">
+          <span class="build-info">
+            <span class="build-title">Flow Design System</span>
+          </span>
+          <span class="build-date">2020. 11 ~ 2021. 6</span>
+        </a>
+      </li>
+      <li class="build-entry" id="build-nova-store-service">
+        <a href="builds/nova-store-service/">
+          <span class="build-info">
+            <span class="build-title">Nova Store Service Design</span>
+          </span>
+          <span class="build-date">2019. 4 ~ 2020. 10</span>
+        </a>
+      </li>
+      <li class="build-entry" id="build-personal-blog">
+        <a href="archives.html">
+          <span class="build-info">
+            <span class="build-title">Personal Blog</span>
+          </span>
+          <span class="build-date">2026. 1 ~ Present</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="home-block" data-reveal>
+    <h2 class="section-label">Archive</h2>
+    <ul class="archive-list">
+      <li class="archive-entry"><a href="archives/year-in-review/"><span class="archive-title">Year in Review</span><span class="archive-date">2025. 12</span></a></li>
+      <li class="archive-entry"><a href="archives/studio-notes/"><span class="archive-title">Studio Notes</span><span class="archive-date">2025. 8</span></a></li>
+      <li class="archive-entry"><a href="archives/getting-back-to-basics/"><span class="archive-title">Getting Back to Basics</span><span class="archive-date">2025. 3</span></a></li>
+    </ul>
+    <a class="view-all" href="archives.html">전체 목록</a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© 2026</span>
+  <div class="footer-links">
+    <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://linkedin.com" target="_blank" rel="noopener">Linkedin</a>
+    <a href="#" >Resume</a>
+  </div>
+</footer>
+
+<script src="search-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

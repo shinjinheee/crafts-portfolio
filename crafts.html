@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>jinhee.shin · Pixels</title>
+<meta name="description" content="Selected craft & visual work by jinhee.shin, a product designer based in Seoul." />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="nav-blur" aria-hidden="true">
+  <div class="nav-blur-layer"></div>
+  <div class="nav-blur-layer"></div>
+  <div class="nav-blur-layer"></div>
+  <div class="nav-blur-layer"></div>
+  <div class="nav-blur-layer"></div>
+</div>
+<nav class="pill-nav" aria-label="Primary">
+  <div class="pill-nav-inner">
+    <a href="index.html">Index</a>
+    <a href="crafts.html" class="active">Pixels</a>
+    <a href="archives.html">Archive</a>
+  </div>
+  <div class="pill-nav-icons">
+    <a href="mailto:hello@example.com" aria-label="Email">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+    </a>
+    <span class="icon-divider"></span>
+    <a href="#" data-search-trigger aria-label="Search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="search-overlay" id="searchOverlay">
+  <div class="search-scrim"></div>
+  <div class="search-box" role="dialog" aria-modal="true" aria-label="Search">
+    <div class="search-panel">
+      <div class="search-input-row">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="검색어 입력" autocomplete="off" spellcheck="false" />
+      </div>
+      <ul class="search-results" id="searchResults" hidden></ul>
+    </div>
+  </div>
+</div>
+
+<main class="grid" id="grid">
+
+  <article class="card card--full" data-reveal id="craft-app-icon">
+    <a class="thumb thumb--v1 mark--square" style="--ar:1/1" href="#" aria-label="App Icon"></a>
+    <div class="card-meta">
+      <h3 class="card-title">App Icon</h3>
+      <span class="card-client">for Flow team</span>
+    </div>
+  </article>
+
+  <article class="card card--full" data-reveal id="craft-texture-wallpaper">
+    <a class="thumb thumb--v2 mark--none" style="--ar:5/4" href="#" aria-label="Texture Wallpaper"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Texture Wallpaper</h3>
+      <span class="card-client">for Personal work</span>
+    </div>
+  </article>
+
+  <article class="card card--full" data-reveal id="craft-3d-card">
+    <a class="thumb thumb--v3 mark--card" style="--ar:5/4" href="#" aria-label="3D Card with Hover Interaction"></a>
+    <div class="card-meta">
+      <h3 class="card-title">3D Card with Hover Interaction</h3>
+      <span class="card-client">for Personal work</span>
+    </div>
+  </article>
+
+  <article class="card card--full" data-reveal id="craft-action-bar">
+    <a class="thumb thumb--v4 mark--bar" style="--ar:2.35/1" href="#" aria-label="Action Bar Interaction Prototype"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Action Bar Interaction Prototype</h3>
+      <span class="card-client">for Personal work</span>
+    </div>
+  </article>
+
+  <article class="card card--full" data-reveal id="craft-glass-texture">
+    <a class="thumb thumb--v5 mark--none" style="--ar:5/4" href="#" aria-label="Glass Texture Background"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Glass Texture Background</h3>
+      <span class="card-client">for Personal work</span>
+    </div>
+  </article>
+
+  <article class="card card--full" data-reveal id="craft-brand-standards">
+    <a class="thumb thumb--v6 mark--grid" style="--ar:5/4" href="#" aria-label="Brand Standards Graphic"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Brand Standards Graphic</h3>
+      <span class="card-client">for Flow team</span>
+    </div>
+  </article>
+
+  <article class="card card--full" data-reveal id="craft-cold-brew-label">
+    <a class="thumb thumb--v1 mark--tag" style="--ar:4/5" href="#" aria-label="Cold Brew Label"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Cold Brew Label</h3>
+      <span class="card-client">for Flow team</span>
+    </div>
+  </article>
+
+  <article class="card card--full" data-reveal id="craft-name-card">
+    <a class="thumb thumb--v2 mark--card" style="--ar:8/5" href="#" aria-label="Name Card"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Name Card</h3>
+      <span class="card-client">for Flow team</span>
+    </div>
+  </article>
+
+  <article class="card card--half" data-reveal id="craft-year-end-logo">
+    <a class="thumb thumb--v3 mark--circle" style="--ar:1/1" href="#" aria-label="Year-End Party Logo"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Year-End Party Logo</h3>
+      <span class="card-client">for Flow team</span>
+    </div>
+  </article>
+
+  <article class="card card--half" data-reveal id="craft-campaign-graphic">
+    <a class="thumb thumb--v4 mark--diamond" style="--ar:1/1" href="#" aria-label="Campaign Graphic"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Campaign Graphic</h3>
+      <span class="card-client">for Product Design Group</span>
+    </div>
+  </article>
+
+  <article class="card card--half" data-reveal id="craft-wordmark-logo">
+    <a class="thumb thumb--v5 mark--circle" style="--ar:1/1" href="#" aria-label="Wordmark Logo"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Wordmark Logo</h3>
+      <span class="card-client">for Product Design Group</span>
+    </div>
+  </article>
+
+  <article class="card card--half" data-reveal id="craft-store-tag">
+    <a class="thumb thumb--v6 mark--tag" style="--ar:1/1" href="#" aria-label="Store Tag"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Store Tag</h3>
+      <span class="card-client">for Nova Store</span>
+    </div>
+  </article>
+
+  <article class="card card--full" data-reveal id="craft-store-logo">
+    <a class="thumb thumb--v1 mark--circle" style="--ar:5/4" href="#" aria-label="Store Logo"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Store Logo</h3>
+      <span class="card-client">for Nova Store</span>
+    </div>
+  </article>
+
+  <article class="card card--full" data-reveal id="craft-poster-nova">
+    <a class="thumb thumb--v2 mark--bar" style="--ar:3/4" href="#" aria-label="Event Poster"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Poster</h3>
+      <span class="card-client">for Nova Store</span>
+    </div>
+  </article>
+
+  <article class="card card--full" data-reveal id="craft-ui-concept">
+    <a class="thumb thumb--v5 mark--grid" style="--ar:5/4" href="#" aria-label="UI Concept"></a>
+    <div class="card-meta">
+      <h3 class="card-title">UI Concept</h3>
+      <span class="card-client">for Personal work</span>
+    </div>
+  </article>
+
+  <article class="card card--full" data-reveal id="craft-ui-prototype">
+    <a class="thumb thumb--v3 mark--none" style="--ar:5/4" href="https://instagram.com" target="_blank" rel="noopener" aria-label="UI Prototype (Instagram)"></a>
+    <div class="card-meta">
+      <h3 class="card-title">UI Prototype <span class="ext">↗</span></h3>
+      <span class="card-client">for Personal work</span>
+    </div>
+  </article>
+
+  <article class="card card--half" data-reveal id="craft-poster-home-1">
+    <a class="thumb thumb--v6 mark--bar" style="--ar:3/4" href="#" aria-label="Poster"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Poster</h3>
+      <span class="card-client">for Home</span>
+    </div>
+  </article>
+
+  <article class="card card--half" data-reveal id="craft-poster-home-2">
+    <a class="thumb thumb--v4 mark--bar" style="--ar:3/4" href="#" aria-label="Poster"></a>
+    <div class="card-meta">
+      <h3 class="card-title">Poster</h3>
+      <span class="card-client">for Home</span>
+    </div>
+  </article>
+
+</main>
+
+<footer class="site-footer">
+  <span>© 2026</span>
+  <div class="footer-links">
+    <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://linkedin.com" target="_blank" rel="noopener">Linkedin</a>
+    <a href="#" >Resume</a>
+  </div>
+</footer>
+
+<script src="search-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
