@@ -204,7 +204,7 @@ def main():
         nav_next = (next_item["title"], f"../{next_item['slug']}/") if next_item else None
 
         html = page(
-            title=f"{b['title']} · jinhee.shin",
+            title="I like simple things.",
             description=b["eyebrow"],
             active="index",
             back_href="../../index.html",
@@ -228,7 +228,7 @@ def main():
         nav_next = (next_item[1], f"../{next_item[0]}/") if next_item else None
 
         html = page(
-            title=f"{title} · jinhee.shin",
+            title="I like simple things.",
             description=eyebrow,
             active="archives",
             back_href="../../archives.html",
